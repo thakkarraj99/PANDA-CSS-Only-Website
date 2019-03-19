@@ -2,8 +2,33 @@ html,body{
     height: 100vh;
     margin:0px;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
-
+/*Color classes*/
+.bg-light{
+    background: #fafbfb;
+}
+.bg-dark{
+    background: #0d0e0f;
+}
+.bg-white{
+    background: #fff;
+}
+.bg-black{
+    background: #000
+}
+.text-light{
+    color: #fafbfb;
+}
+.text-dark{
+    color: #0d0e0f;
+}
+.text-white{
+    color: #fff;
+}
+.text-black{
+    color: #000
+}
 
 /* header CSS */
 header{
@@ -22,15 +47,14 @@ nav ul li {
     display: inline-block;
     margin-right: 4em;
   }
-.nav-left{
-    width: 50%;
-    float: left;
-    color:#000;  
-}
 .nav-right{
-    text-align: left;
+    width: 50%;
     float: right;
-    color:#fff;
+    text-align: left;
+}
+.nav-left{
+   
+    float: left;
     width: 50%;
 
 }
@@ -50,12 +74,20 @@ nav ul li {
     flex-direction:column;
     width:50%;
     height: 100vh;
-    background: #fff;
+    background: #fafbfb;
 }
 .hero-right{
     display:flex;
     flex-direction:column;
     width:50%;
     height: 100vh;
-    background: #000;
+    background: #0d0e0f;
+}
+
+
+/*Media Queries*/
+@media only screen and (max-width:600px){
+    .nav-right{
+        display: none;
+    }
 }
