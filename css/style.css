@@ -1,0 +1,61 @@
+html,body{
+    height: 100vh;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* header CSS */
+header{
+    top:0;
+    width:100%;
+    position: fixed;
+    background: transparent;
+    z-index: 1;
+}
+nav ul{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 4em;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 4em;
+  }
+.nav-left{
+    width: 50%;
+    float: left;
+    color:#000;  
+}
+.nav-right{
+    text-align: left;
+    float: right;
+    color:#fff;
+    width: 50%;
+
+}
+
+/*container*/
+.full-width-container{
+    position: relative;
+    width: 100%;
+}
+.row{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;  
+}
+.hero-left{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    height: 100vh;
+    background: #fff;
+}
+.hero-right{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    height: 100vh;
+    background: #000;
+}
