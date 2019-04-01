@@ -95,14 +95,19 @@ nav ul li {
 
 
 /*Media Queries*/
-@media only screen and (max-width:600px){
+@media only screen and (max-width:876px){
     .nav-large{
         display: none;
     }
     
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:876px){
     .mobile-menu-icon{
         display: none;  
     }
+}
+@media only screen and (max-width:1130px){
+    nav ul li {
+       margin-right: 2em;
+      }
 }
