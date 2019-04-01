@@ -16,9 +16,10 @@
     <header>
         <nav>
             <div class="nav-left">
-                <ul>
-                    <li></li>
+                <ul class="text-dark">
+                    <li><a><svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path></svg></a></li>
                 </ul>
+                
             </div>
             <div class="nav-right text-light">
                 <ul class="nav-large">
@@ -36,15 +37,25 @@
                     </li>
 
                 </ul>
-                <div class="mobile-menu-icon">
-                    <div class="menu-lines bg-light"></div>
-                    <div class="menu-lines bg-light"></div>
-                    <div class="menu-lines bg-light"></div>
-                </div>
 
             </div>
         </nav>
     </header>
+    <!---sidebar-->
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+      <div class="spinner diagonal part-1"></div>
+      <div class="spinner horizontal"></div>
+      <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+      <ul class="sidebarMenuInner">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
     <!--Navigation header End-->
     <div class="full-width-container">
         <div class="row">
