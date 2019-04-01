@@ -4,5 +4,5 @@ Panda is a CSS only website template, designed to boost the speed of the website
 
 <b>Figma Link for Design Prototypes:</b>
 
-<a href="https://www.figma.com/proto/BJrXjVIT6cwEKJJLkHyraRuU/Home?node-id=5%3A2&scaling=min-zoom" target="_blank">Landing Page</a>
+<a href="https://www.figma.com/file/BJrXjVIT6cwEKJJLkHyraRuU/Home?node-id=0%3A1" target="_blank">Landing Page</a>
 
